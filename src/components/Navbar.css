@@ -2,7 +2,7 @@
     width: 100%;
     padding: 20px 20px;
     box-sizing: border-box;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
   }
   .navbar ul {
     display: flex;
@@ -31,5 +31,5 @@
   }
 
   .logo>span>span{
-    color:#FF919D ;
+    color:rgba(255, 72, 90, 0.557) ;
   }

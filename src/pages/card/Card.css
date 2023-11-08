@@ -51,7 +51,7 @@
   }
   
   .detail > span:nth-child(2) {
-    font-size: 22px;
+    font-size: 18px;
     font-weight: bold;
   }
   .detail > span:nth-child(3) {
@@ -59,7 +59,7 @@
   }
   
   /* ExpandedCard */
-  .ExpandedCard {
+  /* .ExpandedCard {
     position: absolute;
     width: 60%;
     height: 70vh;
@@ -102,4 +102,4 @@
       left: 25px;
       width: 80%;
     }
-  }
+  } */

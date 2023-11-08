@@ -25,6 +25,7 @@ const handleSubmit=(e)=>{
 }
 
     return(
+        <div className="create-container">
         <div className="create-form">
             <h1 className="page-title">Create a New Project</h1>
             <form onSubmit={handleSubmit}>
@@ -53,7 +54,11 @@ const handleSubmit=(e)=>{
 
                 <button className='btn'>Add Project</button>
             </form>
-            <img src={RightImage} alt="Your Image" className="right-image" />
+            </div>
+            
+              <div className="image-container">
+              <img src={RightImage} alt="Data Image" />
+            </div>
         </div>
     )
 }
